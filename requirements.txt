@@ -1,0 +1,13 @@
+numpy==1.18.5
+torch==1.7.1
+numba
+tensorboardX
+easydict
+pyyaml
+scikit-image
+scikit-learn
+tqdm
+kornia==0.5.2
+torchvision
+wandb==0.10.13
+waymo-open-dataset-tf-2-2-0

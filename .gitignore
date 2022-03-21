@@ -1,0 +1,17 @@
+**__pycache__**
+**build/
+**egg-info**
+**dist**
+data/
+*.pyc
+venv/
+*.idea/
+*.vscode/
+*.so
+*.pth
+*.pkl
+*.zip
+*.bin
+*/version.py
+output/
+wandb/
