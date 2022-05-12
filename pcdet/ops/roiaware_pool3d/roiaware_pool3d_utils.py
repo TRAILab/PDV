@@ -46,7 +46,7 @@ def points_in_multi_boxes_gpu(points, boxes, max_num_boxes):
     :param points: (B, M, 3)
     :param boxes: (B, T, 7), num_valid_boxes <= T
     :param max_num_boxes: N
-    :return box_idxs_of_pts: (B, N, max_num_boxes), default background = -1
+    :return box_idxs_of_pts: (B, M, N), default background = -1
     """
     assert boxes.shape[0] == points.shape[0]
     assert boxes.shape[2] == 7 and points.shape[2] == 3
