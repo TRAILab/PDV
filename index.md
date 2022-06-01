@@ -1,6 +1,19 @@
 ---
 title: Point Density-Aware Voxels for LiDAR 3D Object Detection
 ---
+
+<style>
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 0px;
+}
+</style>
+
 ## Overview
 <p style="text-align:center;"><img
     src="Figures/PDV_overview.png" align="center">
@@ -27,6 +40,16 @@ CVPR 2022
 
 ---
 ## Affiliations
-[<img src="Figures/UofT.png" align="left" width="210" />](https://robotics.utoronto.ca/)
-[<img src="Figures/trailab.svg" align="right" width="200" />](https://www.trailab.utias.utoronto.ca/)
+<div class="row">
+  <div class="column">
+    <a href="https://robotics.utoronto.ca/">
+        <img src="Figures/UofT.png" alt="Snow" style="width:80%; align:left">
+    </a>
+  </div>
+  <div class="column">
+    <a href="https://www.trailab.utias.utoronto.ca/">
+        <img src="Figures/trailab.svg" alt="Forest" style="width:75%">
+    </a>
+  </div>
+</div>
 <hr style="height:60px; visibility:hidden;" />
