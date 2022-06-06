@@ -8,6 +8,9 @@
 # ==================================================================
 FROM nvidia/cuda:10.2-cudnn8-devel-ubuntu18.04
 
+ENV TZ=America/New_York
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
 RUN rm -rf /var/lib/apt/lists/* \
            /etc/apt/sources.list.d/cuda.list \
            /etc/apt/sources.list.d/nvidia-ml.list && \
@@ -31,7 +34,7 @@ RUN apt-get install -y --no-install-recommends \
         wget \
         git \
         vim \
-	    nano \
+	nano \
         libx11-dev \
         fish \
         libsparsehash-dev \
