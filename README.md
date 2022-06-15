@@ -30,9 +30,9 @@ Selected supported methods are shown in the below table. The results are the 3D 
 * All models are trained with 2 NVIDIA Tesla P100 GPUs and are available for download.
 * The training time is measured with 2 NVIDIA Tesla P100 GPUs and PyTorch 1.7.
 
-|                                             | training time | Car@R40 | Pedestrian@R40 | Cyclist@R40  | download |
-|---------------------------------------------|----------:|:-------:|:-------:|:-------:|:---------:|
-| [PDV](tools/cfgs/kitti_models/pdv.yaml) |~23 hours| 85.05 | 57.41 | 75.95 | [model-147M](https://drive.google.com/file/d/1b-XGK4gEq7I1GDmsqLQNU4-34qANudKa/view?usp=sharing) |
+|                                             | training time | Car@R40 | Pedestrian@R40 | Cyclist@R40  | log | download |
+|---------------------------------------------|----------:|:-------:|:-------:|:-------:|:----:|:---------:|
+| [PDV](tools/cfgs/kitti_models/pdv.yaml) |~23 hours| 85.05 | 57.41 | 75.95 | [log](https://drive.google.com/file/d/1sZR0fvQUbYd7P8efGvkIv58vY6AZmA5a/view?usp=sharing) | [model-147M](https://drive.google.com/file/d/1b-XGK4gEq7I1GDmsqLQNU4-34qANudKa/view?usp=sharing) |
 
 ### Waymo Open Dataset Baselines
 We could not provide the above pretrained models due to [Waymo Dataset License Agreement](https://waymo.com/open/terms/),
