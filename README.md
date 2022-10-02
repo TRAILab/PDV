@@ -40,7 +40,7 @@ but you could easily achieve similar performance by training with the default co
 
 
 ## Installation
-Please refer to [INSTALL.md](docs/INSTALL.md) for the installation of `OpenPCDet`.
+Please refer to [INSTALL.md](docs/INSTALL.md) for the installation of `PDV`.
 
 
 ## Quick Demo
